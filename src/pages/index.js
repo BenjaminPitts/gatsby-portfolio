@@ -8,9 +8,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Benjamin Jack Pitts</h1>
-    <p>custom portfolio in progress</p>
-    <p>built on gatsby, deployed on netifly</p>
+    <h1>Portfolio</h1><br />
     <p><StaticImage
       src="../images/profile-pic.jpeg"
       width={200}
