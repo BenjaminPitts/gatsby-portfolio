@@ -40,9 +40,10 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built by
+        <br /><br /><br /><br /><br /><br />
+          <p>© {new Date().getFullYear()}, Built by
           {` `}
-          <a href="https://www.linkedin.com/in/benjaminjackpitts/" target='_blank'>Benjamin Pitts</a>
+          <a href="https://www.linkedin.com/in/benjaminjackpitts/" target='_blank'>Benjamin Pitts</a></p>
         </footer>
       </div>
     </>

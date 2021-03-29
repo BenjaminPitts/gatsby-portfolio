@@ -11,8 +11,8 @@ const ThirdPage = () => (
     <ul>
     <li><a href='https://triplejpainting.herokuapp.com/' target='_blank'>TripleJ Painting Company</a></li>
     <li><a href='https://recordstore666.herokuapp.com/recordstore' target='_blank'>CounterCulture Records</a></li>
-    </ul>
-    <Link to="/">Go back to the homepage</Link>
+    </ul><br /><br />
+    <p><Link to="/">Go back to the homepage</Link></p>
   </Layout>
 )
 
