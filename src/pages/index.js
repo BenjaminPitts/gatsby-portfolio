@@ -13,10 +13,10 @@ const IndexPage = () => (
     <p>built on gatsby, deployed on netifly</p>
     <StaticImage
       src="../images/me.jpg"
-      width={300}
+      width={200}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
+      alt="Benjamin Pitts"
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
