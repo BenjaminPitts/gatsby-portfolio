@@ -3,21 +3,24 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ReCAPTCHA from "react-google-recaptcha"
 
 const FourthPage = () => (
   <Layout>
     <SEO title="Contact" />
     <h1>Contact</h1><br />
 
-    <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact" netifly>
+    <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact" action='/thanks/' netifly>
+    <input type="hidden" name="bot-field" />
+    <input type="hidden" name="form-name" value="contact" />
     <label>
-      Name: <input type="text" name="name" /><br />
+    <input type="text" name="name" placeholder='your name'/><br />
     </label>
     <label>
-    Email: <input type="email" name="email" /><br />
+    <input type="email" name="email" placeholder='your email'/><br />
     </label>
     <label>
-      Message: <textarea type="text" name="message"></textarea><br />
+    <textarea type="text" name="message" cols='20' rows='5' placeholder='message'></textarea><br />
     </label>
     <button type='submit'>Send</button>
     <input type='reset' value='clear' />

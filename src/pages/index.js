@@ -7,15 +7,15 @@ import SEO from "../components/seo"
 import Test from '../components/test.js'
 
 
-try {
-  axios.get("https://triplejpainting.herokuapp.com/")
-  axios.get("https://recordstore666.herokuapp.com/recordstore")
-  axios.get("https://react-quiz-js.herokuapp.com/")
-  axios.get("https://benpitts-interview-flashcards.herokuapp.com/")
-  axios.get("https://benjaminpitts.github.io/thejokestore/")
-  axios.get("https://disney-itinerary.herokuapp.com/")
-
-} catch (error) {}
+// try {
+//   axios.get("https://triplejpainting.herokuapp.com/")
+//   axios.get("https://recordstore666.herokuapp.com/recordstore")
+//   axios.get("https://react-quiz-js.herokuapp.com/")
+//   axios.get("https://benpitts-interview-flashcards.herokuapp.com/")
+//   axios.get("https://benjaminpitts.github.io/thejokestore/")
+//   axios.get("https://disney-itinerary.herokuapp.com/")
+//
+// } catch (error) {}
 
 
 const IndexPage = () => (
