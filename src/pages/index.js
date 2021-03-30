@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import axios from 'axios'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Test from '../components/test.js'
+import Brand from '../components/brand.js'
 
 
 // try {
@@ -22,9 +22,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <p>
-      <Link to="/page-2/">About</Link> |
-      <Link to="/page-3/"> Projects</Link> |
-      <Link to='/page-4/'> Contact</Link>
+      <Link to="/about/">About</Link> |
+      <Link to="/projects/"> Projects</Link> |
+      <Link to='/contact/'> Contact</Link>
     </p>
     <p><StaticImage
       src="../images/profile.jpg"
@@ -35,8 +35,10 @@ const IndexPage = () => (
       style={{ margin: `1rem` }}
     />
 </p>
-    <p>I am a software developer with a strong passion for solving problems and helping people which reflects my brand of leadership and sets a good example for my peers. Pairing these skills with my passion for human rights, community outreach, and environmental responsibility, I am an asset to any professional team and always do everything I can to make the world a better place. </p>
-    <Test />
+    <Brand /><br />
+    <p><a href='https://docs.google.com/document/d/10y5TgeX8W13olsQKy9EvXkUguwIgjXVMdwkyDnq01zQ/edit?usp=sharing' target='_blank' >Resume</a> |
+    <a href='https://github.com/BenjaminPitts' target='_blank'>GitHub</a> |
+    <a href='https://www.linkedin.com/in/benjaminjackpitts/' target='_blank'>LinkedIn</a></p>
   </Layout>
 )
 
