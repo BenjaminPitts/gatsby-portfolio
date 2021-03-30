@@ -3,11 +3,11 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import styles from './styles.module.css'
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, siteSlogan }) => (
   <header
     style={{
-      background: `black`,
-      marginBottom: `1.45rem`,
+      background: `gray`,
+      marginBottom: `1rem`,
     }}
   >
     <div
@@ -24,12 +24,13 @@ const Header = ({ siteTitle }) => (
             color: `white`,
             textDecoration: `none`,
             textShadow: `none`,
-            
+
           }}
         >
           {siteTitle}
         </Link>
       </h1>
+      {siteSlogan}
     </div>
   </header>
 )

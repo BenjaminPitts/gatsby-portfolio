@@ -3,9 +3,10 @@ module.exports = {
     title: `Benjamin Jack Pitts`,
     description: `Benjamin's Portfolio`,
     author: `@gatsbyjs`,
-    slogan: "Full-Stack Software Developer"
+    slogan: `Full-Stack Software Developer`
   },
   plugins: [
+    'gatsby-transformer-remark',
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {

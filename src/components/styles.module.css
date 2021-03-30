@@ -7,3 +7,17 @@
   color: white;
   text-shadow: none;
 }
+body {
+  background: #090909;
+}
+p, h1, h2,div {
+  text-align: center;
+  color: ivory;
+}
+a {
+  color: ivory;
+  text-shadow: none;
+}
+a:hover {
+  color: gray;
+}

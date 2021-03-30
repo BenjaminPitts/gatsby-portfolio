@@ -1,13 +1,21 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
+import { StaticImage} from 'gatsby-plugin-image'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1>About Benjamin Pitts</h1>
+    <p><StaticImage
+      src="../images/me.jpg"
+      width={200}
+      quality={95}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="Benjamin Pitts"
+      style={{ margin: `1rem`, borderRadius: `10%` }}
+    />
+</p>
     <p>I am a software developer with a robust work history.
 I’ve worked for companies ranging from small/independent, medium/franchise, to large corporations and can adapt to any type of working environment. I have a well rounded knowledge of frontend languages/backend frameworks and have deployed an [array] of projects to showcase this fluency. I have also collaborated with other software developers on projects and have the ability to learn new languages and concepts.
 
