@@ -14,7 +14,6 @@ import Brand from '../components/brand.js'
 //   axios.get("https://benpitts-interview-flashcards.herokuapp.com/")
 //   axios.get("https://benjaminpitts.github.io/thejokestore/")
 //   axios.get("https://disney-itinerary.herokuapp.com/")
-//
 // } catch (error) {}
 
 
@@ -26,7 +25,8 @@ const IndexPage = () => (
       <Link to="/projects/"> Projects</Link> |
       <Link to='/contact/'> Contact</Link>
     </p>
-    <p><StaticImage
+    <strong>
+    <StaticImage
       src="../images/profile.jpg"
       width={900}
       quality={95}
@@ -34,11 +34,12 @@ const IndexPage = () => (
       alt="Benjamin Pitts"
       style={{ margin: `1rem` }}
     />
-</p>
-    <Brand /><br />
-    <p><a href='https://docs.google.com/document/d/10y5TgeX8W13olsQKy9EvXkUguwIgjXVMdwkyDnq01zQ/edit?usp=sharing' target='_blank' >Resume</a> |
-    <a href='https://github.com/BenjaminPitts' target='_blank'>GitHub</a> |
-    <a href='https://www.linkedin.com/in/benjaminjackpitts/' target='_blank'>LinkedIn</a></p>
+    </strong>
+
+    <Brand />
+    <a href='https://docs.google.com/document/d/10y5TgeX8W13olsQKy9EvXkUguwIgjXVMdwkyDnq01zQ/edit?usp=sharing' target='_blank' > Resume </a> |
+    <a href='https://github.com/BenjaminPitts' target='_blank'> GitHub </a> |
+    <a href='https://www.linkedin.com/in/benjaminjackpitts/' target='_blank'> LinkedIn </a>
   </Layout>
 )
 

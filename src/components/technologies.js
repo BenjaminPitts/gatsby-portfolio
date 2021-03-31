@@ -3,8 +3,8 @@ import {Link} from 'gatsby'
 
 class Tech extends React.Component {
   render = () => {
-    return <div className='tech'>
-      <h2> Technologies used</h2><br />
+    return <>
+    <br /><br />
       <p><img src='https://i.imgur.com/VGpquy4.png' />
       <img src='https://i.imgur.com/A4mYrLV.png' />
       <img src='https://i.imgur.com/Cpo7eEq.png' />
@@ -18,7 +18,7 @@ class Tech extends React.Component {
       <img src='https://i.imgur.com/xJSai2s.png' />
       <img src='https://i.imgur.com/VYRVksB.png' /></p>
 
-    </div>
+    </>
   }
 }
 

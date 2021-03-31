@@ -24,6 +24,7 @@ const Header = ({ siteTitle, siteSlogan }) => (
             color: `white`,
             textDecoration: `none`,
             textShadow: `none`,
+            fontSize: `40px`
 
           }}
         >

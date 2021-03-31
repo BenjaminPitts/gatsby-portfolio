@@ -8,6 +8,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import Typography from '../utils/typography.js'
 import Header from "./header"
 
 
@@ -38,10 +39,10 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer
           style={{
-            marginTop: `2rem`,
+            marginTop: `12rem`,
           }}
         >
-        <br /><br /><br /><br /><br /><br />
+
           <p>© {new Date().getFullYear()}, Built by
           {` `}
           <a href="https://www.linkedin.com/in/benjaminjackpitts/" target='_blank'>Benjamin Pitts</a></p>

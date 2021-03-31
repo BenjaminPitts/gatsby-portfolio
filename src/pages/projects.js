@@ -9,10 +9,11 @@ import Tech from '../components/technologies'
 const Projects = () => (
   <Layout>
     <SEO title="Projects" />
+    <br />
     <Links />
     <Tech />
     <br /><br />
-    <p><Link to="/">Go back to the homepage</Link></p>
+    <p><Link to="/">Back to Homepage</Link></p>
   </Layout>
 )
 
