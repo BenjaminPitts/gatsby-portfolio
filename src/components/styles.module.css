@@ -26,45 +26,70 @@ h2 {
   font-size: 35px;
   color: ivory;
 }
+b {
+position: relative;
+bottom: 40px;
+right: 75px;
+font-weight: lighter;
+font-style: italic;
+}
 a {
   color: ivory;
   text-shadow: none;
-  font-size: 30px;
+  font-size: 25px;
 }
 a:hover {
   color: gray;
 }
 textarea {
   resize: none;
+  max-width: 60%;
 }
 strong {
   opacity: .4;
 }
 img {
-  width: 10%;
+  width: 12%;
   margin: .5rem;
 }
+
 nav {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: gray;
 }
 span {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
   color: gray;
+  margin: 0;
+  padding: 0;
 }
 button:hover {
   cursor: pointer;
   background: gray;
 }
+input {
+  width: 60%;
+}
 
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 700px)
 {
   img {
     width: 15%;
   }
   a {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  b {
+    font-size: 15px;
+    bottom: 10px;
+    right: 20px;
   }
   h2 {
     font-size: 20px;
@@ -77,5 +102,8 @@ button:hover {
   }
   article {
     flex-direction: column;
+  }
+  span {
+    align-items: center;
   }
 }

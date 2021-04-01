@@ -16,7 +16,8 @@ class Form extends React.Component {
     <input type="email" name="email" placeholder='your email'/><br />
     </label>
     <label>
-    <textarea type="text" name="message" cols='20' rows='5' placeholder='message'></textarea><br />
+    <textarea type="text" name="message" cols='60' rows='5'placeholder='message'>    
+    </textarea><br />
     </label>
     <button type='submit'>Send</button>
   </form><br />

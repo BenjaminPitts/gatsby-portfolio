@@ -7,7 +7,7 @@ import Bio from '../components/bio'
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="About" />
     <article>
     <StaticImage
       src="../images/me.jpg"
@@ -18,6 +18,14 @@ const SecondPage = () => (
       style={{ margin: `1rem`, borderRadius: `10%` }}
     />
     <h2><i>I am a software developer with a robust work history</i></h2>
+    <StaticImage
+      src="https://i.imgur.com/plNrAnM.jpg"
+      width={200}
+      quality={95}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="Benjamin Pitts"
+      style={{ margin: `1rem`, borderRadius: `10%` }}
+    />
     </article><br />
 
 
