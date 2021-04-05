@@ -43,7 +43,7 @@ a:hover {
 }
 textarea {
   resize: none;
-  max-width: 60%;
+  max-width: 80%;
 }
 strong {
   opacity: .4;
@@ -74,7 +74,7 @@ button:hover {
   background: gray;
 }
 input {
-  width: 60%;
+  width: 80%;
 }
 
 
@@ -105,5 +105,11 @@ input {
   }
   span {
     align-items: center;
+  }
+  input {
+    width: 100%;
+  }
+  textarea {
+    max-width: 100%;
   }
 }
