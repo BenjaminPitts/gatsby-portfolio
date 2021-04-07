@@ -37,7 +37,7 @@ const IndexPage = () => (
     </strong>
 
     <Brand />
-    <a href='https://docs.google.com/document/d/10y5TgeX8W13olsQKy9EvXkUguwIgjXVMdwkyDnq01zQ/edit?usp=sharing' target='_blank' > Resume </a> |
+    <a href='https://drive.google.com/file/d/1ZQhmPSUI-n_q-jxrKvVSQ56T-cM-L1gx/view?usp=sharing' target='_blank' > Resume </a> |
     <a href='https://github.com/BenjaminPitts' target='_blank'> GitHub </a> |
     <a href='https://www.linkedin.com/in/benjaminjackpitts/' target='_blank'> LinkedIn </a>
   </Layout>
