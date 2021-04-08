@@ -36,7 +36,7 @@ font-style: italic;
 a {
   color: ivory;
   text-shadow: none;
-  font-size: 25px;
+  font-size: 26px;
 }
 a:hover {
   color: gray;
@@ -84,7 +84,7 @@ input {
     width: 15%;
   }
   a {
-    font-size: 18px;
+    font-size: 16px;
   }
   b {
     font-size: 14px;
