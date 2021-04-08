@@ -19,7 +19,7 @@ try {
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Benjamin Jack Pitts" />
     <p>
       <Link to='/'> Home </Link> |
       <Link to="/about/"> About</Link> |
