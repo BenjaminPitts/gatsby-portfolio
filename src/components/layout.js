@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer
           style={{
-            marginTop: `12rem`,
+            marginTop: `10rem`,
           }}
         >
 

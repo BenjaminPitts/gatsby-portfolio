@@ -7,7 +7,7 @@ const Header = ({ siteTitle, siteSlogan }) => (
   <header
     style={{
       background: `gray`,
-      marginBottom: `1rem`,
+      marginBottom: `2rem`,
     }}
   >
     <div
@@ -17,21 +17,12 @@ const Header = ({ siteTitle, siteSlogan }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `ivory`,
-            textDecoration: `none`,
-            textShadow: `none`,
-            fontSize: `40px`
-
-          }}
-        >
+      <h1 style={{ margin: `.2rem`, fontSize:`50px` }}>
           {siteTitle}
-        </Link>
       </h1>
+      <h3 style={{ margin: `0`, color: `#090909`, fontSize:`20px`, align: `center`}}>
       {siteSlogan}
+      </h3>
     </div>
   </header>
 )
