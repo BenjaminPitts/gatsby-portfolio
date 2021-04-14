@@ -45,6 +45,9 @@ textarea {
   resize: none;
   max-width: 80%;
 }
+textarea:hover {
+  background: ivory;
+}
 strong {
   opacity: .4;
 }
@@ -75,6 +78,10 @@ button:hover {
 }
 input {
   width: 80%;
+}
+input:hover {
+  background: ivory;
+  border: 2px solid gray;
 }
 
 
