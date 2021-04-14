@@ -27,6 +27,13 @@ class Links extends React.Component {
     <b>Java/Spring/React/PostgreSQL</b><br />
 
     <span>
+    <a href='https://benjaminpitts-musician.herokuapp.com/' target='_blank'>Musician Portfolio </a>&nbsp;|&nbsp;
+    <a href='https://github.com/BenjaminPitts/django_contacts' target='_blank'> GitHub</a>
+    <img src='https://i.imgur.com/kx4z459.png' data-toggle="tooltip" title='Musician Portfolio is a full CRUD app and was built using a Python/Django stack. I learned how to create a virtual environment for local development and run migration locally and on heroku. I also created a superuser account on the Django backend for /admin functions.' /><br />
+    </span>
+    <b>Python/Django/HTML/CSS</b><br />
+
+    <span>
     <a href='https://react-quiz-js.herokuapp.com/' target='_blank'>Quiz.js <i>(collab)</i></a>&nbsp;|&nbsp;
     <a href='https://github.com/BenjaminPitts/quiz.js' target='_blank'>GitHub</a>
     <img src='https://i.imgur.com/f8RH651.png' data-toggle="tooltip" title='Quiz.js is a full CRUD, Single Page Application built with React, Laravel, PHP, and PostgresQL. It is a collaboration project between Anand Patel, Andrew Bayles, and Ben Pitts. The user is prompted to answer questions that can help solidify their understanding of JavaScript fundamentals. The team used axios to handle routing, and PHP to query/return questions from the database. Using React, the question is dynamically rendered to the page and the user is able to input a multiple choice answer. A program was written to compare the user input to the stored answer in the data. If the answer matches, a "correct" statement is rendered to the page, a point value accumulates, and the next question is randomly generated. Users also have the ability to create, update, and delete questions from the database and the app if fully responsive and mobile friendly!' /><br />

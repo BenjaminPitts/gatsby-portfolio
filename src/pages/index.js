@@ -12,6 +12,7 @@ try {
   axios.get("https://recordstore666.herokuapp.com/recordstore")
   axios.get("https://react-quiz-js.herokuapp.com/")
   axios.get("https://benpitts-interview-flashcards.herokuapp.com/")
+  axios.get("https://benjaminpitts-musician.herokuapp.com/")
   axios.get("https://benjaminpitts.github.io/thejokestore/")
   axios.get("https://disney-itinerary.herokuapp.com/")
 } catch (error) {}
