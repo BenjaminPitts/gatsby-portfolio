@@ -6,7 +6,7 @@ class Links extends React.Component {
     return <>
     <nav>
     <span>
-    <a href='https://triplejpaintingcompany.com/' target='_blank'>TripleJ Painting</a>&nbsp;|&nbsp;
+    <a href='triplejpaintingcompany.com/' target='_blank'>TripleJ Painting</a>&nbsp;|&nbsp;
     <a href='https://github.com/BenjaminPitts/TripleJ' target='_blank'> GitHub</a>
     <img src='https://i.imgur.com/4QhvKEy.png' data-toggle="tooltip" title='Triple J Painting Company is a full-CRUD, single page application built on a Laravel/PHP stack with React on the frontend. It uses a postgreSQL database for relational queries and has an admin route for update/delete functions. Users can easily see the bio, look at portfolio pictures, contact the company, and leave reviews about their experience. This app is responsive, mobile friendly, and users are able to quickly toggle between the different views.' /><br />
     </span>
